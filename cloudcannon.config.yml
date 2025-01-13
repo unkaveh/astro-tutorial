@@ -1,0 +1,10 @@
+source: /src/
+collections_config: {}
+paths:
+  static: public
+  uploads: public/uploads
+timezone: America/New_York
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
