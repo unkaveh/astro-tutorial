@@ -7,18 +7,34 @@ collections_config:
   blog:
     path: /src/blog
     glob:
-    name:
+      - blog
+    name: Blog Files
     singular_name:
-    icon: notes
+    icon: newspaper
     url:
     disable_url: false
     include_developer_files:
     documentation:
-    description:
+    description: Are these the files?
     preview:
     sort:
     sort_options:
     _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold:
+        copyformatting:
+        italic:
+        link:
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
     _enabled_editors:
     _inputs:
     _select_data:
@@ -35,6 +51,8 @@ collection_groups:
   - heading: blog
     collections:
       -
+_enabled_editors:
+  - content
 timezone: America/New_York
 markdown:
   engine: commonmark
